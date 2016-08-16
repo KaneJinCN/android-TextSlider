@@ -6,7 +6,7 @@
 ![TextSlider Preview 2 Gif](https://cloud.githubusercontent.com/assets/7828293/17703563/bab9f95a-6404-11e6-8520-00bbea5f272b.gif)
 
 ## Usage 使用方法
-1. 引用AdBox Library
+1. 引用TextSlider Library
 
     在build.gradle中添加依赖
     ```
@@ -127,3 +127,6 @@
 
 ## License 许可
 [MIT](https://github.com/KaneJinCN/android-TextSlider/blob/master/LICENSE)
+
+## See Also 参阅
+[AdBox](https://github.com/KaneJinCN/android-AdBox)
