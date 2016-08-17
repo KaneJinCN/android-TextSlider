@@ -282,6 +282,10 @@ public class TextSlider extends RelativeLayout {
     }
 
     private int offsetIndex(int offset) {
+        if (mAdapter.getCount() <= 0) {
+            return -1;
+        }
+
         int nextIndex = mCurrentAdIndex + offset;
 
         if (nextIndex > mAdapter.getCount() - 1)
