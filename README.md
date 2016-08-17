@@ -9,12 +9,12 @@
 1. 引用TextSlider Library
 
     在build.gradle中添加依赖
-    ```
+    ```gradle
     compile 'cn.kanejin.textslider:library:1.0.0@aar'
     ```
 
 2. 在layout里定义AdBox
-    ```
+    ```xml
     <cn.kanejin.textslider.TextSlider
         android:id="@+id/text_slider"
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
     [查看完整的示例代码](https://github.com/KaneJinCN/android-TextSlider/blob/master/demo/src/main/res/layout/activity_main.xml)
 
 3. 在Activity里设置Adapter和Listener
-    ```
+    ```java
     mTextSlider = (TextSlider) findViewById(R.id.text_slider);
 
     DemoTextSliderAdpter adapter = new DemoTextSliderAdpter(this);
