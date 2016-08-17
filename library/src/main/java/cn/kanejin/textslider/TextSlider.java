@@ -59,18 +59,18 @@ public class TextSlider extends RelativeLayout {
 
         try {
 
-            mDuration = a.getInteger(R.styleable.TextSlider_duration, 1000);
-            mDelay = a.getInteger(R.styleable.TextSlider_delay, 5000);
-            mLoop = a.getBoolean(R.styleable.TextSlider_loop, true);
-            mAutoPlay = a.getBoolean(R.styleable.TextSlider_autoPlay, true);
+            mDuration = a.getInteger(R.styleable.TextSlider_textslider_duration, 1000);
+            mDelay = a.getInteger(R.styleable.TextSlider_textslider_delay, 5000);
+            mLoop = a.getBoolean(R.styleable.TextSlider_textslider_loop, true);
+            mAutoPlay = a.getBoolean(R.styleable.TextSlider_textslider_autoPlay, true);
 
-            mRows = a.getInteger(R.styleable.TextSlider_rows, 1);
-            mRowHeight = a.getDimensionPixelSize(R.styleable.TextSlider_rowHeight, dip2px(getContext(), 24.0f));
-            mStep = a.getInteger(R.styleable.TextSlider_step, 1);
+            mRows = a.getInteger(R.styleable.TextSlider_textslider_rows, 1);
+            mRowHeight = a.getDimensionPixelSize(R.styleable.TextSlider_textslider_rowHeight, dip2px(getContext(), 24.0f));
+            mStep = a.getInteger(R.styleable.TextSlider_textslider_step, 1);
             mStep = Math.min(mStep, mRows);
 
-            mTextColor = a.getColor(R.styleable.TextSlider_textColor, getContext().getResources().getColor(android.R.color.black));
-            mTextSize = a.getDimensionPixelSize(R.styleable.TextSlider_textSize, sp2px(getContext(), 16.0f));
+            mTextColor = a.getColor(R.styleable.TextSlider_textslider_textColor, getContext().getResources().getColor(android.R.color.black));
+            mTextSize = a.getDimensionPixelSize(R.styleable.TextSlider_textslider_textSize, sp2px(getContext(), 16.0f));
 
         } finally {
             a.recycle();

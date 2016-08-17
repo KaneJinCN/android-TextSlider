@@ -12,14 +12,14 @@
         android:layout_height="match_parent"
         android:paddingLeft="8dp"
         android:background="#ffe822"
-        custom:textColor="@android:color/black"
-        custom:textSize="16sp"
-        custom:duration="1000"
-        custom:delay="3000"
-        custom:loop="true"
-        custom:autoPlay="true"
-        custom:rows="3"
-        custom:step="2"
-        custom:rowHeight="36dp" />
+        custom:textslider_textColor="@android:color/black"
+        custom:textslider_textSize="16sp"
+        custom:textslider_duration="1000"
+        custom:textslider_delay="3000"
+        custom:textslider_loop="true"
+        custom:textslider_autoPlay="true"
+        custom:textslider_rows="3"
+        custom:textslider_step="2"
+        custom:textslider_rowHeight="36dp" />
 
 </RelativeLayout>

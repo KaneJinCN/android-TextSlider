@@ -1,26 +1,26 @@
 <resources>
     <declare-styleable name="TextSlider">
         
-        <attr name="textColor" format="color" />
-        <attr name="textSize" format="dimension" />
+        <attr name="textslider_textColor" format="color" />
+        <attr name="textslider_textSize" format="dimension" />
 
         <!-- duration of switching  images -->
-        <attr name="duration" format="integer" />
+        <attr name="textslider_duration" format="integer" />
 
         <!-- delay between slides -->
-        <attr name="delay" format="integer" />
+        <attr name="textslider_delay" format="integer" />
 
         <!-- loop -->
-        <attr name="loop" format="boolean" />
+        <attr name="textslider_loop" format="boolean" />
 
         <!-- auto play -->
-        <attr name="autoPlay" format="boolean" />
+        <attr name="textslider_autoPlay" format="boolean" />
 
-        <attr name="rows" format="integer" />
+        <attr name="textslider_rows" format="integer" />
 
-        <attr name="rowHeight" format="dimension" />
+        <attr name="textslider_rowHeight" format="dimension" />
 
-        <attr name="step" format="integer" />
+        <attr name="textslider_step" format="integer" />
 
 
     </declare-styleable>
