@@ -10,7 +10,7 @@
 
     在build.gradle中添加依赖
     ```gradle
-    compile 'cn.kanejin.textslider:library:1.0.1@aar'
+    compile 'cn.kanejin.textslider:library:1.0.2@aar'
     ```
 
 2. 在layout里定义AdBox
