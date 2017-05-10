@@ -12,14 +12,14 @@
 里面的内容基本如下：
 ```xml
     <operation uri="/wtb/location" name="找到我们">
-		<step id="toLocation"
-			  class="cn.kanejin.kplat.web.opstep.ForwardPage">
-			<return-action>
-				<if return="0"><forward page="/WEB-INF/view/wtb/location.jsp" /></if>
-				<else><error/></else>
-			</return-action>
-		</step>
-	</operation>
+        <step id="toLocation"
+	      class="cn.kanejin.kplat.web.opstep.ForwardPage">
+	    <return-action>
+	        <if return="0"><forward page="/WEB-INF/view/wtb/location.jsp" /></if>
+		<else><error/></else>
+	    </return-action>
+	</step>
+    </operation>
 ```
 说明：
 
